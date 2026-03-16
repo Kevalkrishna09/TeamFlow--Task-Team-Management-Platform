@@ -1,0 +1,13 @@
+package com.keval.teamflow.dto;
+
+import java.util.List;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+public class UserTasksResponseDTO {
+    private List<UserTaskDTO> tasks;
+}

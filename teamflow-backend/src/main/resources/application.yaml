@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: teamflow1
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: kevalkrishna2002@gmail.com
+    password : omlj zjcq uobk kahv
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/teamflow
+    username: kkris04
+    password: fzHnGtkPlsK8XcFN
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+server:
+  servlet:
+    context-path: /api
+JWT_SECRET: "awhfn83JFE8M20DFR4Jf"
+
